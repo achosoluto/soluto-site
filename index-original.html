@@ -32,54 +32,6 @@
             line-height: 1.6;
         }
         
-        /* Fixed Contact Button */
-        .fixed-contact {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            z-index: 1000;
-        }
-        
-        .contact-fab {
-            background: var(--secondary);
-            color: white;
-            padding: 12px 20px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 600;
-            box-shadow: 0 4px 12px rgba(44, 165, 141, 0.3);
-            transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        
-        .contact-fab:hover {
-            background: #248a73;
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(44, 165, 141, 0.4);
-            color: white;
-        }
-        
-        /* Header Contact Bar */
-        .contact-header {
-            background: var(--primary);
-            color: white;
-            padding: 8px 0;
-            text-align: center;
-            font-size: 0.9rem;
-        }
-        
-        .contact-header a {
-            color: var(--secondary);
-            text-decoration: none;
-            font-weight: 600;
-        }
-        
-        .contact-header a:hover {
-            color: white;
-        }
-        
         .hero {
             background: linear-gradient(135deg, var(--primary) 0%, #1b2936 100%);
             color: white;
@@ -171,46 +123,6 @@
             margin-bottom: 1rem;
         }
         
-        /* Quick Contact Cards */
-        .quick-contact {
-            background: var(--primary);
-            color: white;
-            padding: 1.5rem;
-            border-radius: 0.5rem;
-            text-align: center;
-            margin: 2rem 0;
-        }
-        
-        .quick-contact h4 {
-            color: var(--secondary);
-            margin-bottom: 1rem;
-        }
-        
-        .contact-options {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        
-        .contact-option {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            color: white;
-            text-decoration: none;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 0.5rem 1rem;
-            border-radius: 0.375rem;
-            transition: all 0.2s;
-        }
-        
-        .contact-option:hover {
-            background: var(--secondary);
-            color: white;
-            transform: translateY(-1px);
-        }
-        
         .demo-showcase {
             padding: 4rem 0;
             text-align: center;
@@ -287,34 +199,10 @@
                 flex-direction: column;
                 align-items: center;
             }
-            .contact-fab {
-                padding: 10px 16px;
-                font-size: 0.9rem;
-            }
-            .contact-options {
-                flex-direction: column;
-                align-items: center;
-            }
         }
     </style>
 </head>
 <body>
-    <!-- Fixed Contact Button -->
-    <div class="fixed-contact">
-        <a href="mailto:contact@solutoconsulting.com?subject=Consulting%20Inquiry" class="contact-fab" aria-label="Contact Us">
-            ✉️ Contact
-        </a>
-    </div>
-    
-    <!-- Contact Header Bar -->
-    <div class="contact-header">
-        <div class="container">
-            💬 Ready to discuss your procurement challenges? 
-            <a href="mailto:contact@solutoconsulting.com">contact@solutoconsulting.com</a> • 
-            <a href="#contact">Schedule a Call</a>
-        </div>
-    </div>
-    
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
@@ -322,7 +210,7 @@
             <p>Data analytics and supply chain optimization consulting delivering quantified outcomes for enterprise leaders.</p>
             <div class="cta-buttons">
                 <a href="#demo" class="btn btn-primary">View Interactive Demo</a>
-                <a href="mailto:contact@solutoconsulting.com?subject=Initial%20Consultation%20Request" class="btn btn-outline">Discuss Your Challenges</a>
+                <a href="#contact" class="btn btn-outline">Discuss Your Challenges</a>
             </div>
         </div>
     </section>
@@ -342,11 +230,6 @@
                         <li><strong>Vendor Rationalization:</strong> Eliminate 30-40% of low-value suppliers</li>
                         <li><strong>Compliance Monitoring:</strong> Reduce maverick spend to under 10%</li>
                     </ul>
-                    <div style="margin-top: 1rem; text-align: center;">
-                        <a href="mailto:contact@solutoconsulting.com?subject=Data%20Analytics%20Consultation" style="color: var(--secondary); text-decoration: none; font-weight: 600;">
-                            💬 Discuss Data Analytics →
-                        </a>
-                    </div>
                 </div>
                 
                 <div class="expertise-card">
@@ -357,11 +240,6 @@
                         <li><strong>ROI Measurement:</strong> Quantified outcomes and performance metrics</li>
                         <li><strong>Predictive Analytics:</strong> Forecast risks and optimization opportunities</li>
                     </ul>
-                    <div style="margin-top: 1rem; text-align: center;">
-                        <a href="mailto:contact@solutoconsulting.com?subject=Business%20Intelligence%20Consultation" style="color: var(--secondary); text-decoration: none; font-weight: 600;">
-                            💬 Discuss Business Intelligence →
-                        </a>
-                    </div>
                 </div>
                 
                 <div class="expertise-card">
@@ -372,28 +250,6 @@
                         <li><strong>Strategic Sourcing:</strong> Category management and negotiation support</li>
                         <li><strong>Risk Management:</strong> Supplier diversity and continuity planning</li>
                     </ul>
-                    <div style="margin-top: 1rem; text-align: center;">
-                        <a href="mailto:contact@solutoconsulting.com?subject=Supply%20Chain%20Management%20Consultation" style="color: var(--secondary); text-decoration: none; font-weight: 600;">
-                            💬 Discuss SCM Optimization →
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Quick Contact After Expertise -->
-            <div class="quick-contact">
-                <h4>Ready to Transform Your Procurement?</h4>
-                <p style="margin-bottom: 1rem;">Every conversation starts with understanding your specific challenges.</p>
-                <div class="contact-options">
-                    <a href="mailto:contact@solutoconsulting.com?subject=Procurement%20Transformation%20Inquiry" class="contact-option">
-                        ✉️ Send Email
-                    </a>
-                    <a href="#contact" class="contact-option">
-                        📅 Schedule Call
-                    </a>
-                    <a href="https://spend-analysis-demo.pages.dev" class="contact-option" target="_blank">
-                        🎯 See Demo First
-                    </a>
                 </div>
             </div>
         </div>
@@ -428,14 +284,9 @@
                     </div>
                 </div>
                 
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-                    <a href="https://spend-analysis-demo.pages.dev" class="btn btn-primary" target="_blank" rel="noopener">
-                        Launch Interactive Demo →
-                    </a>
-                    <a href="mailto:contact@solutoconsulting.com?subject=Demo%20Discussion%20-%20Spend%20Analysis" class="btn btn-outline" style="border-color: var(--secondary); color: var(--secondary);">
-                        Discuss This Demo
-                    </a>
-                </div>
+                <a href="https://github.com/achosoluto/spend-analysis-demo" class="btn btn-primary" target="_blank" rel="noopener">
+                    Launch Interactive Demo →
+                </a>
             </div>
         </div>
     </section>
@@ -464,14 +315,6 @@
                     <span class="metric-label">Contract Coverage</span>
                 </div>
             </div>
-            
-            <!-- Contact within metrics section -->
-            <div style="margin-top: 3rem;">
-                <p style="margin-bottom: 1rem;">Ready to achieve similar results?</p>
-                <a href="mailto:contact@solutoconsulting.com?subject=Results%20Discussion%20Request" class="btn btn-primary">
-                    Let's Discuss Your Potential ROI
-                </a>
-            </div>
         </div>
     </section>
 
@@ -481,42 +324,15 @@
             <h2>Transform Your Procurement Strategy</h2>
             <p style="color: var(--muted); margin-bottom: 2rem;">Ready to unlock hidden value in your spend data? Let's discuss your specific challenges and opportunities.</p>
             
-            <div style="max-width: 600px; margin: 0 auto;">
-                <div style="background: white; padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem; color: var(--primary);">
-                    <h4 style="color: var(--primary); text-align: center; margin-bottom: 1rem;">Multiple Ways to Connect</h4>
-                    
-                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
-                        <div style="text-align: center;">
-                            <strong>📧 Direct Email</strong><br>
-                            <a href="mailto:contact@solutoconsulting.com?subject=Procurement%20Optimization%20Inquiry" style="color: var(--secondary); text-decoration: none;">
-                                contact@solutoconsulting.com
-                            </a>
-                        </div>
-                        <div style="text-align: center;">
-                            <strong>🎯 Specific Interest</strong><br>
-                            <a href="mailto:contact@solutoconsulting.com?subject=Spend%20Analysis%20-%20Manufacturing" style="color: var(--secondary); text-decoration: none;">
-                                Spend Analysis
-                            </a> • 
-                            <a href="mailto:contact@solutoconsulting.com?subject=Supply%20Chain%20Optimization" style="color: var(--secondary); text-decoration: none;">
-                                SCM
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <p style="margin-bottom: 1.5rem; font-size: 0.95rem;"><strong>Typical Engagement Timeline:</strong><br>
-                    • Week 1-2: Data discovery and quick wins identification<br>
-                    • Month 2-4: Strategic implementation and vendor consolidation<br>
-                    • Month 6+: Sustainable processes and continuous optimization</p>
-                    
-                    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-                        <a href="mailto:contact@solutoconsulting.com?subject=Procurement%20Optimization%20Inquiry&body=I'm%20interested%20in%20discussing%20how%20your%20expertise%20can%20help%20optimize%20our%20procurement%20function.%20Please%20let%20me%20know%20your%20availability%20for%20an%20initial%20conversation." class="btn btn-primary" style="display: inline-block;">
-                            📧 Start Email Conversation
-                        </a>
-                        <a href="#demo" class="btn" style="background: var(--accent); color: white; display: inline-block; text-decoration: none;">
-                            🎯 See Demo First
-                        </a>
-                    </div>
-                </div>
+            <div style="max-width: 500px; margin: 0 auto;">
+                <p style="margin-bottom: 2rem;"><strong>Typical Engagement Timeline:</strong><br>
+                • Week 1-2: Data discovery and quick wins identification<br>
+                • Month 2-4: Strategic implementation and vendor consolidation<br>
+                • Month 6+: Sustainable processes and continuous optimization</p>
+                
+                <a href="mailto:contact@solutoconsulting.com?subject=Procurement%20Optimization%20Inquiry" class="btn btn-primary" style="display: inline-block;">
+                    Start the Conversation →
+                </a>
             </div>
         </div>
     </section>
@@ -524,21 +340,6 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div style="text-align: center; margin-bottom: 1.5rem;">
-                <h4 style="color: var(--secondary); margin-bottom: 1rem;">Get Started Today</h4>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 1rem;">
-                    <a href="mailto:contact@solutoconsulting.com?subject=New%20Inquiry" style="color: var(--secondary); text-decoration: none; display: flex; align-items: center; gap: 0.5rem;">
-                        ✉️ contact@solutoconsulting.com
-                    </a>
-                    <a href="https://spend-analysis-demo.pages.dev" style="color: var(--secondary); text-decoration: none; display: flex; align-items: center; gap: 0.5rem;" target="_blank">
-                        🎯 Interactive Demo
-                    </a>
-                </div>
-                <p style="font-size: 0.9rem; opacity: 0.9;">
-                    <strong>Immediate Response:</strong> All inquiries receive a response within 4 business hours
-                </p>
-            </div>
-            <hr style="border: 1px solid rgba(255,255,255,0.2); margin: 1.5rem 0;">
             <p>&copy; 2024 Soluto Consulting. Data Analytics • Business Intelligence • Supply Chain Management Optimization</p>
             <p style="font-size: 0.9rem; opacity: 0.8; margin-top: 0.5rem;">
                 Built for performance with global CDN • <a href="https://github.com/achosoluto/spend-analysis-demo" style="color: var(--secondary);" target="_blank">View Demo Source</a>
