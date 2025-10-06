@@ -1,0 +1,13 @@
+name = "soluto-site"
+compatibility_date = "2024-10-06"
+
+[env.production]
+account_id = "40f316de02cef7268076b14d80b373ba"
+
+[[env.production.route]]
+pattern = "www.solutoconsulting.com/*"
+zone_name = "solutoconsulting.com"
+
+[[env.production.route]]
+pattern = "solutoconsulting.com/*"
+zone_name = "solutoconsulting.com"
