@@ -3,13 +3,31 @@
     <url>
         <loc>https://www.solutoconsulting.com/</loc>
         <lastmod>2024-10-06</lastmod>
-        <changefreq>monthly</changefreq>
+        <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.solutoconsulting.com/demos/spend-analysis</loc>
+        <loc>https://spend.solutoconsulting.com/</loc>
+        <lastmod>2024-10-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.solutoconsulting.com/services/spend-analysis-consulting</loc>
         <lastmod>2024-10-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.solutoconsulting.com/case-studies/manufacturing-spend-optimization</loc>
+        <lastmod>2024-10-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.solutoconsulting.com/projects/interactive-spend-analysis-demo</loc>
+        <lastmod>2024-10-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
 </urlset>
