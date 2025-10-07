@@ -15,6 +15,55 @@
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
     
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Soluto Consulting",
+        "url": "https://www.solutoconsulting.com",
+        "logo": "https://www.solutoconsulting.com/favicon.ico",
+        "description": "Vendor Master Data Management and Proactive Data Assurance delivering 8-25% procurement savings through Tax ID anchoring and agentic AI verification.",
+        "foundingDate": "2024",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "US"
+        },
+        "serviceArea": "Global",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Procurement Consulting Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Vendor Master Data Management",
+                        "description": "Tax ID anchoring, agentic AI verification, and real-time quality monitoring"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Spend Analysis Consulting",
+                        "description": "Data-driven procurement transformation delivering 8-25% cost savings"
+                    }
+                }
+            ]
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "contact@solutoconsulting.com",
+            "contactType": "Business",
+            "availableLanguage": "English"
+        },
+        "sameAs": [
+            "https://github.com/achosoluto/spend-analysis-demo"
+        ]
+    }
+    </script>
+    
     <!-- Styles via CDN for zero build step -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
     <style>
