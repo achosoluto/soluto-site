@@ -1,5 +1,7 @@
 # SolutoConsulting.com
 
+**For contributors and AI agents: see `WARP.md` for development and operational guidance.**
+
 Professional website for Soluto Consulting - Data Analytics, Business Intelligence, and Supply Chain Management Optimization expertise.
 
 ## 🎯 Purpose

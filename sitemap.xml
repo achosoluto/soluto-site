@@ -2,14 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://www.solutoconsulting.com/</loc>
-        <lastmod>2024-10-06</lastmod>
+        <lastmod>2024-10-07</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://spend.solutoconsulting.com/</loc>
-        <lastmod>2024-10-06</lastmod>
+        <loc>https://www.solutoconsulting.com/vendor-master-data-management.html</loc>
+        <lastmod>2024-10-07</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://spend-analysis-demo.pages.dev/</loc>
+        <lastmod>2024-10-07</lastmod>
         <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://spend-analysis-demo.pages.dev?mode=mdm</loc>
+        <lastmod>2024-10-07</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
@@ -21,6 +33,18 @@
     <url>
         <loc>https://www.solutoconsulting.com/case-studies/manufacturing-spend-optimization</loc>
         <lastmod>2024-10-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.solutoconsulting.com/content/case-studies/finance-duplicate-payments-remediation.md</loc>
+        <lastmod>2024-10-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.solutoconsulting.com/content/case-studies/hierarchy-spend-consolidation-negotiation.md</loc>
+        <lastmod>2024-10-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>

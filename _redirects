@@ -1,0 +1,6 @@
+# Redirect apex domain to www
+https://solutoconsulting.com/* https://www.solutoconsulting.com/:splat 301!
+
+# Ensure HTTPS for all requests
+http://www.solutoconsulting.com/* https://www.solutoconsulting.com/:splat 301!
+http://solutoconsulting.com/* https://www.solutoconsulting.com/:splat 301!
