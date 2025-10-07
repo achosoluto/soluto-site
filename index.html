@@ -422,7 +422,7 @@
     <section id="demo" class="demo-showcase">
         <div class="container">
             <h2>Interactive Vendor MDM & Spend Analysis Demo</h2>
-            <p style="color: var(--muted); margin-bottom: 2rem;">Experience Tax ID-based normalization, agentic AI verification, and the 5 core theses through professional interactive visualizations</p>
+            <p style="color: var(--muted); margin-bottom: 2rem;">Experience Tax ID-based normalization, agentic AI verification, and the 5 core theses through professional interactive visualizations.<br><small style="opacity: 0.8;"><strong>Note:</strong> Demo showcases consulting methodology - actual implementations are customized for each client environment.</small></p>
             
             <div class="demo-preview">
                 <h3 style="margin-bottom: 1rem;">🎯 Live Demo Available</h3>
@@ -696,5 +696,23 @@
 
     <!-- Cloudflare Web Analytics (to be configured) -->
     <!-- <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "YOUR_TOKEN_HERE"}'></script> -->
+    
+    <!-- Lightweight CTA Click Tracking -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const target = e.target;
+            if (target.tagName === 'A') {
+                const href = target.getAttribute('href');
+                if (href && (href.includes('mdm') || href.includes('vendor'))) {
+                    console.log('MDM CTA Click:', {
+                        text: target.textContent.trim(),
+                        href: href,
+                        timestamp: new Date().toISOString(),
+                        page: 'homepage'
+                    });
+                }
+            }
+        });
+    </script>
 </body>
 </html>
