@@ -72,8 +72,9 @@
             --primary-hover: #1b2936;
             --secondary: #2ca58d;
             --accent: #f59e0b;
-            --muted: #6c757d;
+            --muted: #495057;
             --background: #ffffff;
+            --text-high-contrast: #212529;
         }
         
         body {
@@ -166,6 +167,7 @@
         }
         
         .btn-primary {
+            font-weight: 600;
             background: var(--secondary);
             color: white;
         }
@@ -173,6 +175,7 @@
         .btn-primary:hover {
             background: #248a73;
             transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(44, 165, 141, 0.3);
         }
         
         .btn-outline {
@@ -310,6 +313,41 @@
             padding: 4rem 0;
             background: #f8f9fa;
             text-align: center;
+        }
+
+        /* Enhanced contrast for contact section */
+        .contact h2 {
+            color: var(--primary) !important;
+            font-weight: 700;
+        }
+
+        .contact > .container > div > div {
+            background: white;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            margin-bottom: 2rem;
+            color: var(--text-high-contrast);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact h4 {
+            color: var(--primary) !important;
+            font-weight: 600;
+        }
+
+        .contact strong {
+            color: var(--primary);
+        }
+
+        .contact a {
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact a:hover {
+            color: #248a73;
+            text-decoration: underline;
         }
         
         footer {
